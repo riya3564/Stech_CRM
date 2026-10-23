@@ -1,0 +1,78 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local configuration and logs
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Local database backups and dumps
+*.sql
+*.dump
+*.backup
+# Local backups and internal reports
+*.backup
+backend_workflow_dump.txt
+backend/installed_packages.txt
+appointment_frontend_check.txt
+workflow_check_report.txt
+
+# Exclude backup and temporary source files
+*.bak
+*.bak.*
+*.encoding-backup
+*.broken-backup
+*.before-fix.*
+*.tmp
+*backup*.jsx
+
+# Dated backups
+*.backup-*
+*.bak-*
+
+# Exclude backup Python files
+*_backup.py
+
+# Exclude local temporary dashboard text
+frontend/Dashboard.jsx.txt
+
+# Local backup route files
+backend/routes/*_backup.py
+
+# Local temporary dashboard file
+frontend/Dashboard.jsx.txt
+
+# Exclude backup files
+*_backup.py
+*.bak
+*.bak-*
+*.backup*
+*.dump
+.env
+.env.*
+!.env.example
+frontend/Dashboard.jsx.txt
